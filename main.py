@@ -13,7 +13,7 @@ print(location)
 service_provider = phonenumbers.parse(phone_num)
 print(carrier.name_for_number(service_provider,"en"))
 
-key = "3567b587bd234a76ba71651bffb4fb03"
+key = ""
 geocoder = OpenCageGeocode(key)
 query = str(location)
 results = geocoder.geocode(query)
